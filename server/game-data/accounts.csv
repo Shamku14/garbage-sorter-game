@@ -1,0 +1,5 @@
+userID,userPassword,currentAvatar,coins,isTeacher,isDeveloper,inventory,totalScore,lastLevel,teacherID
+mlekhi,password,4,1000,False,False,"[0,2,3,4,5]",370,1,msperanza
+msperanza,password123,7,400,True,True,"[0],0,1,1,1,1,6,2,3,4,5,7",4096,1,null
+maya,password,4,1000,False,False,"[0,2,3,4,5]",370,1,msperanza
+zain,password,4,1000,False,False,"[0,2,3,4,5]",370,1,msperanza

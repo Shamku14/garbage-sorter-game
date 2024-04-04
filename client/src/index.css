@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  overflow: hidden;
+}
+
+h1 {
+  font-family: "Coiny", system-ui;
+  font-size: 35pt;
+}
+
+button {
+  font-family: "Varela Round", sans-serif;
+  font-weight: bold;
+  border: none; 
+  padding: 5pt;
+}

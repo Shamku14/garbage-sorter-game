@@ -1,0 +1,89 @@
+.TestInfo {
+  background: rgba(0, 0, 0, 0.12);
+  border: 3px solid rgba(1, 1, 1, 1.12);
+  border-radius: 1px;
+  display: block;
+  margin: 3em auto;
+  max-width: 40%;
+  text-align: center ; 
+}
+
+p {
+  font-weight: bold;
+}
+
+
+
+a {
+  font-weight: bold;
+}
+
+.TrashBag{
+  width: 40vh;
+  float: right;
+  /* You can also add margin for better spacing */
+    margin-left: 20px;
+    position: fixed; /* Or absolute, depending on your layout needs */
+    right: 0; /* Aligns the image to the right edge of the viewport/container */
+    bottom: -3%;
+
+}
+
+.TestInfo input[type="text"] {
+  border-width: 3px; /* Adjust the border width as needed */
+  border-style: solid; /* Set the border style */
+  border-color: black; /* Set the border color */
+  width: 300px;
+  height: 25px;
+}
+
+
+.LoginInput {
+  display:flex;
+  justify-content:space-between;
+  padding: 5%;
+  
+}
+
+.LoginSpacing {
+  max-width: 90%;
+}
+
+.LoginPadding {
+  padding-bottom: 5%;
+}
+
+.LoginPadding a {
+  color: blue;
+  text-decoration: underline;
+}
+
+.LoginButton{
+  font-weight: bold;
+  background-color: #1c0c86;
+  border-width: 3px; /* Adjust the border width as needed */
+  border-style: solid; /* Set the border style */
+  border-color: black; /* Set the border color */
+  color: white;
+  padding: 10px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 1px;
+  transition: background-color 0.3s ease;
+  box-shadow: 4px 4px 8px rgba(1, 1, 1, 1.2); /* Drop shadow */
+}
+
+.LoginButton:hover {
+  background-color: #d7fa0c;
+  color: black;
+}
+
+.ButtonBounds{
+  text-align: center;
+  padding-bottom: 30px;
+}
+

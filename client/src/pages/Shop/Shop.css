@@ -1,0 +1,83 @@
+
+.PowerUp{
+  width: 100%;
+}
+
+.Avatar-option-img{
+  width: 8vw;
+}
+
+.ShopOptions {
+  width: 98%; 
+  display: grid;
+  gap: 10px; 
+  padding: 10px;
+  grid-template-columns: repeat(4, 1fr); 
+  align-items: end; 
+}
+
+.avatar-box-1:hover,
+.avatar-box-2:hover {
+  transform: scale(1.05);
+}
+
+.info-bar {
+  display: flex;
+  justify-content: flex-end;
+  padding-left: 10pt;
+  padding-right: 10pt;
+}
+
+.ShopOptionsPowerUps{
+  width: 100%; /* Take full width of its parent */
+  display: grid;
+  justify-content: space-evenly;
+  grid-template-columns: 480px 480px 435px;
+  padding: 5px;
+  align-items: end;
+}
+.avatar-box-1 {
+  background-color: rgb(160, 210, 231); 
+  padding: 5px;
+  transition: transform 0.3s ease;
+  border-radius: 4pt;
+  height: 30vh;
+}
+
+.avatar-box-2 {
+  background-color: rgb(63, 164, 192); /* Purple color for the right box */
+  padding: 5px;
+  transition: transform 0.3s ease;
+  border-radius: 4pt;
+  height: 30vh;
+}
+
+
+.current-bin {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30vw;
+}
+
+.itemInfo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px; /* Adjust the padding */
+}
+
+@media (max-width: 768px) {
+  .columns {
+    flex-direction: column;
+  }
+
+  .Avatar, .Bin {
+    width: 100%; 
+  }
+
+  .ShopOptions, .LeftShopOptionsAvatar, .RightShopOptionsAvatar,.BottemRightShopOptionsAvatar,.BottemLeftShopOptionsAvatar {
+    grid-column: 1; 
+  }
+  
+}

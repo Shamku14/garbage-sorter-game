@@ -1,0 +1,74 @@
+.tabs {
+  text-align: center;
+  background-color: #89c1e1;
+  padding: 5pt;
+}
+
+.tabs:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+.tab {
+  display: inline-block;
+  line-height: 40px;
+  width: 100px;
+  border-radius: 16px;
+  position: relative;
+  margin-right: 17.5px;
+}
+
+.tab.active {
+  z-index: 100;
+  background: #fff;
+}
+
+.tab.active a {
+  color: #393317;
+}
+
+.tab:after {
+  content: "";
+  display: block;
+    position: absolute;
+  border-top: 35px solid transparent;
+  bottom: 0;
+}
+
+.coin {
+    width: 25px;
+    height: 25px;
+}
+  
+.coinbar {
+    display: flex;
+    justify-content: space-between;
+    height: 3vw;
+    color: white;
+}
+
+.coinbar p {
+    font-size: 20pt;
+}
+
+.coinbar h1 {
+    font-size: 20pt;
+    line-height: 1;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+.bar-item {
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    width: 80pt;
+}
+
+.bar-logo {
+  height: 4vh;
+}

@@ -1,0 +1,146 @@
+.main {
+    padding: 5pt;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-pause {
+    width: 30pt;
+    height: 30pt;
+    margin-left: 20px;
+    margin-top: 20px;
+    transition: transform 0.3s ease;
+}
+
+.header-pause:hover {
+    transform: scale(1.1); /* Increase the scale on hover */
+}
+
+.logo {
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.bin {
+    width: 20vh;
+    transition: transform 0.3s ease;
+}
+
+.bin:hover {
+    transform: scale(1.05);
+}
+
+.wizard {
+    height: 40vh;
+    position: fixed; 
+    right: 2%;
+    bottom: 2%;
+    pointer-events: none;
+}
+
+.wizard-left {
+    height: 30vh;
+    position: fixed; 
+    left: 0%;
+    bottom: 2%;
+    pointer-events: none;
+}
+
+.bin-bar {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.bin-bar-left {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}
+
+.bin-bar-right {
+    display: flex;
+    justify-content: space-around;
+    position: fixed;
+    bottom: 0;
+    width: 50%;
+}
+
+.wand {
+    width: 8vh;
+    height: 8vh;
+    pointer-events: none;
+}
+
+.wand-bar {
+    display: flex;
+    left: 2%;
+    bottom: 2%;
+    position: fixed;
+}
+
+.draggable {
+    z-index: 999;
+    width: 5%;
+    transition: transform 0.3s ease;
+}
+
+.draggable:active {
+    transform: scale(1.1);
+}
+
+.portal {
+    height: 90vh;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;  
+    pointer-events: none;
+    display: flex;
+}
+
+.facts-container {
+    background-color: #b1d8ef;
+    border-radius: 10px;
+    padding: 10pt;
+    position: fixed;
+    bottom: 45%;
+    right: 2%;
+    width: 30vh;
+}
+
+.facts {
+    font-size: 11pt;
+    color: white;
+}
+
+.score-container {
+    margin-right: 20px;
+}
+
+.split-screen {
+    display: flex;
+    height: 100vh; /* Adjust this value as needed */
+  }
+  
+  .left, .right {
+    flex: 1;
+    height: 100%;
+  }
+  
+  .left {
+    background-color: #f0f0f0; /* Adjust background color for left side */
+  }
+  
+  .right {
+    background-color: #ffffff; /* Adjust background color for right side */
+  }  
